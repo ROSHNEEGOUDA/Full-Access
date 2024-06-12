@@ -32,9 +32,9 @@ const HomePage = () => {
                         <h1 className="text-2xl font-bold">Welcome, Kumar</h1>
                         <p className="text-gray-600">100 Points · Sentry level</p>
                     </div>
-                    <a href="#" className="text-blue-600 hover:underline">
+                    <Link to="/leaderboard" className="text-blue-600 hover:underline">
                         View Leaderboard
-                    </a>
+                    </Link>
                 </div>
             </div>
 
@@ -120,7 +120,7 @@ const HomePage = () => {
                     </div>
                     <div>
                         <Link
-                            to="#"
+                            to="/leaderboard"
                             className="text-blue-600 hover:underline text-xs text-end"
                         >
                             Leaderboard
