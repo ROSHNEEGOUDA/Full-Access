@@ -10,12 +10,11 @@ const Login = () => {
             <div className="flex flex-col items-center mb-8">
                 <img src={logo} alt="CyberPeace Corps" className="h-20 w-auto" />
             </div>
-            <div className={`bg-white rounded-lg shadow-xl ${isMobile ? "p-5 w-5/6" : "p-10"}`}>
+            <div className={`bg-white rounded-lg shadow-xl ${isMobile ? "p-5 w-5/6 mb-16" : "p-10 w-96 mb-16"}`}>
                 <h2 className={` font-bold mb-6 text-center text-gray-800 ${isMobile ? "text-xl" : "text-3xl"}`}>Welcome Back!</h2>
                 <form>
                     <div className="mb-5">
-                        <label className="block text-gray-700 text-sm
-                         font-bold mb-2" htmlFor="email">
+                        <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
                             Email ID or Mobile Number
                         </label>
                         <input
@@ -35,9 +34,14 @@ const Login = () => {
                             className="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500"
                             placeholder="Enter your password"
                         />
-                        <a href="#" className="inline-block align-baseline text-sm text-blue-600 hover:text-blue-800">
-                            Forgot Password?
-                        </a>
+                        <div className="flex justify-between">
+                            <a href="#" className="inline-block align-baseline text-sm text-blue-600 hover:text-blue-800">
+                                Forgot Password?
+                            </a>
+                            <Link to="/register" className="inline-block align-baseline text-sm text-blue-600 hover:text-blue-800">
+                                Register
+                            </Link>
+                        </div>
                     </div>
                     <div className="flex items-center justify-center">
                         <Link to="/homepage">

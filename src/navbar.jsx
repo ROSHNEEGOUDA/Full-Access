@@ -2,13 +2,15 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBell } from '@fortawesome/free-solid-svg-icons';
-import Logo from "./assets/800px-CyberPeace_Logo_2023.png";
+import Logo from "./assets/64d28d4c5130957a48d0e325_Logo.svg";
+import { useMediaQuery } from 'react-responsive';
 
 const Navbar = () => {
+  const isMobile = useMediaQuery({maxWidth : 480})
   return (
     <nav className="bg-blue-400 shadow-md py-4 px-6 flex justify-between items-center flex-wrap">
       <div className="flex items-center">
-        <img src={Logo} alt="CyberPeace Corps" className="h-12 w-20" />
+        <img src={Logo} alt="CyberPeace Corps" className={`h-12 ${isMobile ? "w-32" : "w-40"}`} />
       </div>
       <div className="flex items-center mt-4 sm:mt-0">
         <div className="relative">
