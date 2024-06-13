@@ -154,11 +154,19 @@ const VolunteerRegistration = () => {
                             />
                         </div>
                     </div>
-                    <div className="flex items-center justify-center">
+                    <div className="flex items-center justify-between">
+                        <Link to="/">
+                            <button
+                                type="button"
+                                className="bg-gray-600 hover:bg-blue-700 active:bg-blue-800 focus:ring focus:ring-blue-500 hover:shadow-lg text-white font-bold py-2 px-6 rounded-full focus:outline-none focus:shadow-outline"
+                            >
+                                Back
+                            </button>
+                        </Link>
                         <Link to="/formpage">
                             <button
                                 type="submit"
-                                className="bg-gray-600 hover:bg-blue-700 hover:shadow-lg text-white font-bold py-2 px-6 rounded-full focus:outline-none focus:shadow-outline transition duration-200 ease-in-out"
+                                className="bg-gray-600 hover:bg-blue-700 active:bg-blue-800 focus:ring focus:ring-blue-500 hover:shadow-lg text-white font-bold py-2 px-6 rounded-full focus:outline-none focus:shadow-outline hover:translate-x-1 hover:-translate-y-1 "
                             >
                                 Next
                             </button>
