@@ -5,7 +5,7 @@ const InductionPage = () => {
     return (
         <div>
             <Navbar/>
-            <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
+            <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4 pb-4 md:pb-20">
                 <div className="w-full max-w-4xl bg-white shadow-lg rounded-lg p-8">
                     <h1 className="text-3xl font-bold text-center text-black">Welcome to CPC Family!</h1>
                     <div className="mt-10">

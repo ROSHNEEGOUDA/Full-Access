@@ -33,7 +33,7 @@ const Message = () => {
                 </p>
             </div>
             {showButton && (
-                <div className="mt-5">
+                <div className="mt-5 mb-16">
                     <button 
                         className="bg-blue-500 text-white py-2 px-4 rounded-xl shadow-xl hover:bg-green-700"
                         onClick={handleButtonClick}
