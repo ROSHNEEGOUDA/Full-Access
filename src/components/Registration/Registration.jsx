@@ -166,7 +166,7 @@ const VolunteerRegistration = () => {
                         <Link to="/formpage">
                             <button
                                 type="submit"
-                                className="bg-gray-600 hover:bg-blue-700 active:bg-blue-800 focus:ring focus:ring-blue-500 hover:shadow-lg text-white font-bold py-2 px-6 rounded-full focus:outline-none focus:shadow-outline hover:translate-x-1 hover:-translate-y-1 "
+                                className="bg-gray-600 hover:bg-blue-400 active:bg-blue-800 focus:ring focus:ring-blue-500 hover:shadow-lg text-white font-bold py-2 px-6 rounded-full focus:outline-none focus:shadow-outline hover:translate-x-1 hover:-translate-y-1 "
                             >
                                 Next
                             </button>

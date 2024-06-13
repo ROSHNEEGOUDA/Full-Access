@@ -93,7 +93,7 @@ const FormPage = () => {
                     <Link to="/volunteerOath">
                         <button
                             type="submit"
-                            className="bg-gray-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded"
+                            className="bg-gray-700 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded"
                         >
                             Next
                         </button>
