@@ -158,7 +158,7 @@ const VolunteerRegistration = () => {
                         <Link to="/formpage">
                             <button
                                 type="submit"
-                                className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-6 rounded-full focus:outline-none focus:shadow-outline transition duration-200 ease-in-out"
+                                className="bg-gray-600 hover:bg-blue-700 hover:shadow-lg text-white font-bold py-2 px-6 rounded-full focus:outline-none focus:shadow-outline transition duration-200 ease-in-out"
                             >
                                 Next
                             </button>

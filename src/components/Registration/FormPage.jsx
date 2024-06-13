@@ -86,14 +86,14 @@ const FormPage = () => {
                     <button
                         type="button"
                         onClick={handleBackClick} // Handle back button click
-                        className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded"
+                        className="bg-gray-300 hover:bg-yellow-400 text-gray-800 font-bold py-2 px-4 rounded"
                     >
                         Back
                     </button>
                     <Link to="/volunteerOath">
                         <button
                             type="submit"
-                            className="bg-gray-700 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded"
+                            className="bg-gray-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded"
                         >
                             Next
                         </button>

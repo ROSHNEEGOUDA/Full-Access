@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import {Link, useNavigate } from 'react-router-dom';
 import logo from "../../assets/800px-CyberPeace_Logo_2023.png";
 
 const OathFormPage = () => {
@@ -57,17 +57,19 @@ const OathFormPage = () => {
           <button
             type="button"
             onClick={handleBackClick} // Handle back button click
-            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded"
+            className="bg-gray-300 hover:bg-yellow-400 text-gray-800 font-bold py-2 px-4 rounded"
           >
             Back
           </button>
-          <button
-            type="submit"
-            className={`font-bold py-2 px-4 rounded ${agree ? 'bg-blue-700 text-white' : 'bg-gray-400 text-gray-800 cursor-not-allowed'}`}
-            disabled={!agree}
-          >
-            Submit
-          </button>
+          <Link to='/message'>
+            <button
+              type="submit"
+              className={`font-bold py-2 px-4 rounded ${agree ? 'bg-blue-700 text-white' : 'bg-gray-400 text-gray-800 cursor-not-allowed'}`}
+              disabled={!agree}
+            >
+              Submit
+            </button>
+          </Link>
         </div>
       </form>
     </div>
