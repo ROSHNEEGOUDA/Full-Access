@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="bg-blue-400 shadow-md py-4 px-6 flex justify-between items-center flex-wrap">
       <div className="flex items-center">
-        <img src={Logo} alt="CyberPeace Corps" className={`h-12 ${isMobile ? "w-32" : "w-40"}`} />
+        {/* <img src={Logo} alt="CyberPeace Corps" className={`h-12 ${isMobile ? "w-32" : "w-40"}`} /> */}
       </div>
       <div className="flex items-center mt-4 sm:mt-0">
         <div className="relative">

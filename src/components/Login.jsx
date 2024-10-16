@@ -8,7 +8,7 @@ const Login = () => {
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-slate-100">
             <div className="flex flex-col items-center mb-8">
-                <img src={logo} alt="CyberPeace Corps" className="h-20 w-auto" />
+                {/* <img src={logo} alt="CyberPeace Corps" className="h-20 w-auto" /> */}
             </div>
             <div className={`bg-white rounded-lg shadow-xl ${isMobile ? "p-5 w-5/6 mb-16" : "p-10 w-96 mb-16"}`}>
                 <h2 className={` font-bold mb-6 text-center text-gray-800 ${isMobile ? "text-xl" : "text-3xl"}`}>Welcome Back!</h2>
